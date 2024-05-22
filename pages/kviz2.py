@@ -121,5 +121,5 @@ elif st.checkbox("Terminátor", key="10c", value=False):
 
 st.markdown("---")
 
-if st.button("Zobrazit", key="Zobrazit"):
+if st.button("Zobrazit výsledek", key="Zobrazit výsledek"):
     st.write(f"Gratuluji {jmeno}, váš počet bodů je: {pocet_bodu}")
